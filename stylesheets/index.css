@@ -1,114 +1,52 @@
 body {
-	color: #ddd;
+/*	margin: 0 auto;*/
+/*	text-align: center;*/
 }
-a {
-	text-decoration: none;
-}
-header {
-	background-color: #003D4C;
-	height: 6em;
-	width: 100%;
-	padding: 1% 0 0;
-	position: fixed;
-}
-.logo {
-	width: 5.2em;
-	border-radius: 50%;
-	float: left;
-	margin-left: 10%;
-/*	position: absolute;*/
-}
-header ul {
-	margin-right: 10%;
-}
-header li {
-	float: right;
-/*	display: inline;*/
-	font-size: 250%;
-	padding: 0 3%;
-}
-header li:first-child {
-	border-left: 5px solid #ddd;
-	padding-right: 0;
-}
-header li:last-child {
-	border-right: 5px solid #ddd;
-	padding-left: 0;
+main {
+/*	padding: 0 10px;*/
 }
 ul {
-	padding: 0;
+	margin: 0;
 }
 li {
 	list-style: none;
 }
-.profile {
-	background-color: #006161;
-	min-height: 20em;
-	padding: 15% 20% 3%;
-}
-article {
-	width: 80%;
-	float: right;
-	font-size: 150%;
-	line-height: 185%;
-}
-article h3 {
-	margin: 5% 0 0 0;
-}
-h1 {
+.column {
 	margin: 0;
-	color: #333;
+	padding: 0;
 }
-.social {
-	margin: 0;
+.top-bar, .title-area, .top-bar li {
+	height: 4em;
 }
-.social li {
-	display: block;
-	width: 6%;
-	padding: 1% 0;
+.top-bar .name h1 {
+	line-height: 65px;
 }
-.social li a {
-	color: #333;
+.top-bar .top-bar-section ul li {
+	line-height: 40px;
 }
-.social li a:hover {
-	color: #ddd;
+.top-bar .toggle-topbar.menu-icon {
+	top: 25%;
+	height: 50%;
+	margin-top: 0;
 }
-.work {
-	background-color: #00A995;
-	padding: 10% 10%;
-}
-.project2 {
-/*	display: none;*/
-	margin-top: 10%;
-}
-.work p {
-	font-size: 150%;
-	margin: 0;
-	text-align: justify;
-}
-.work img {
-	width: 60%;
-	display: inline-block;
-	margin: 0 3% 0 0;
-	float: left;
-}
-.bullets {
-	margin: 3% auto 0;
-	text-align: center;
-}
-.bullets li {
-	width: 1.5em;
-	height: 1.5em;
-	border: 1px solid #333;
+.logo {
 	border-radius: 50%;
 	display: inline-block;
-	cursor: pointer;
+	width: 50px;
+	margin: 7px 0 7px 15px;
 }
-footer {
-	background-color: #4ACFAF;
-	width: 100%;
+h1 {
+	text-align: center;
+	margin: 25px auto;
+}
+h3 {
+	margin: 0;
+}
+.social {
+	margin: 30px auto 0;
 	height: 3em;
-	color: #333;
-	text-align: right;
-	padding: 2% 0 0;
+	text-align: center;
+}
+.has-tip, .has-tip:hover {
+	border: none;
 }
