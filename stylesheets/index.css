@@ -114,9 +114,9 @@ footer.top-bar {
 	}
 }
 @media (max-width: 400px) {
-	h1 {
-		font-size: 2.4em;
-	}	
+	h1, h2 {
+		font-size: 2.5em;
+	}
 }
 @media (max-width: 360px) {
 	h1 {
