@@ -55,7 +55,7 @@ h2 {
 	line-height: 1em;
 }
 #profile {
-	background-color: #60D2F4;
+	background-color: #b2d9e8;
 }
 .social {
 	margin: 20px auto 0;
@@ -75,13 +75,13 @@ h2 {
 	border: none;
 }
 #skills {
-	background-color: #52BADD;
+	background-color: #aad3e4;
 }
 #skills li {
 	font-size: 1.5em;
 }
 #work {
-	background-color: #44AFD0;
+	background-color: #a2cedf;
 }
 #profile, #work, #skills {
 	padding: 10px 15px 50px;
